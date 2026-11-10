@@ -341,7 +341,6 @@
             let inQuotes = false;
             let currentVal = '';
             
-            // Parser CSV yang aman untuk teks panjang (kendala operasional)
             for (let i = 0; i < csvText.length; i++) {
                 let char = csvText[i];
                 let nextChar = csvText[i+1];
@@ -399,7 +398,7 @@
                 });
             }
 
-            alert("✅ Data Periode & Kendala Operasional berhasil diperbarui dari Spreadsheet!");
+            alert("✅ Data Periode & Kendala Operasional berhasil diperbarui!");
         }
     </script>
 </body>
